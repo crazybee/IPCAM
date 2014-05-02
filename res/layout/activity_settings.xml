@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+   
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+	
+	  <TextView 
+	      android:layout_alignParentLeft="true"
+	      android:textSize="50sp" 
+          android:layout_width="fill_parent"   
+          android:layout_height="wrap_content"   
+          android:text="Settings"  
+	      /> 	
+	   		
+	    
+	   		
+	  
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+       
+        >
+	   <TextView 
+	      android:layout_alignParentLeft="true"
+	      android:textSize="25sp" 
+          android:layout_width="fill_parent"   
+          android:layout_height="wrap_content"   
+          android:text="Motion Detect"  
+	      /> 	
+	   		
+<!--         <Button -->
+            
+<!--         	android:id="@+id/main_button_switch" -->
+<!--         	android:layout_width="wrap_content" -->
+<!--         	android:layout_height="wrap_content" -->
+<!-- 	        android:layout_alignParentLeft="true" -->
+<!-- 	        android:layout_centerVertical="true"        	 -->
+<!--         	android:layout_marginLeft="15dp" -->
+<!--         	android:paddingLeft="25dp" -->
+<!--         	android:paddingTop="3dp" -->
+<!--         	android:paddingRight="25dp" -->
+<!--         	android:paddingBottom="3dp" -->
+<!--         	android:text="Motion detect" -->
+<!--         	android:textSize="15sp" /> -->
+
+        
+	   	<com.crazybee.myipcam.MySlipSwitch
+	   	   
+	   		android:id="@+id/main_myslipswitch"
+	   		android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:layout_alignParentRight="true"	 />
+	   	</RelativeLayout>
+	   	
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+       
+        >
+	   	 <Button
+            
+        	android:id="@+id/clear"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"        	
+        	android:layout_marginLeft="15dp"
+        	android:paddingLeft="25dp"
+        	android:paddingTop="3dp"
+        	android:paddingRight="25dp"
+        	android:paddingBottom="3dp"
+        	android:text="Clear All settings"
+        	android:textSize="15sp" />
+	   	 
+	   	</RelativeLayout>
+<!-- 	    <RelativeLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="20dp" -->
+<!--         > -->
+	   	
+<!-- 	         <TextView  -->
+<!-- 	      android:layout_alignParentLeft="true" -->
+<!-- 	      android:textSize="25sp"  -->
+<!--           android:layout_width="fill_parent"    -->
+<!--           android:layout_height="wrap_content"    -->
+<!--           android:text="LED Switch"   -->
+<!-- 	      />  -->
+<!-- 	   	 <Button -->
+<!--        	android:id="@+id/LED_button_switch"  -->
+        	
+<!--          	android:layout_width="wrap_content"  -->
+<!--         	android:layout_height="wrap_content"  -->
+<!--  	        android:layout_alignParentLeft="true"  -->
+<!-- 	        android:layout_centerVertical="true"        	 -->
+<!--         	android:layout_marginLeft="15dp"  -->
+<!--         	android:paddingLeft="25dp"  -->
+<!--         	android:paddingTop="3dp" -->
+<!--          	android:paddingRight="25dp"  -->
+<!--          	android:paddingBottom="3dp"  -->
+<!--          	android:text="LED Switch" -->
+<!--          	android:textSize="15sp" />  -->
+<!-- 	   	<com.crazybee.myipcam.MySlipSwitch -->
+<!-- 	   		android:id="@+id/LED_myslipswitch" -->
+	   		
+	   		
+<!-- 	   		android:layout_width="wrap_content" -->
+<!-- 	   		android:layout_height="wrap_content" -->
+<!-- 	   		android:layout_alignParentRight="true"	   		 -->
+<!-- 	   		 /> -->
+	   	
+	   	
+<!--     </RelativeLayout> -->
+    
+    
+	    
+    
+	    
+	    
+	    
+<!--      <RelativeLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="20dp" -->
+<!--         > -->
+<!-- 	  <TextView     -->
+<!--     android:id="@+id/Video"  -->
+<!--     android:textSize="20sp"  -->
+<!--     android:layout_width="fill_parent"    -->
+<!--     android:layout_height="wrap_content"    -->
+  
+<!--     />   -->
+<!-- <Spinner   -->
+<!--     android:id="@+id/videospinner"   -->
+<!--     android:layout_width="wrap_content"   -->
+<!--     android:layout_height="wrap_content"   -->
+<!--     android:layout_centerHorizontal="true"   -->
+<!--     android:layout_alignParentRight="true" -->
+<!-- />   -->
+      
+<!--       </RelativeLayout> -->
+	    
+   
+<!--        <RelativeLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="20dp" -->
+       
+<!--         > -->
+<!--         <Button -->
+            
+<!--         	android:id="@+id/button1" -->
+<!--         	android:layout_width="wrap_content" -->
+<!--         	android:layout_height="wrap_content" -->
+<!-- 	        android:layout_alignParentLeft="true" -->
+<!-- 	        android:layout_centerVertical="true"        	 -->
+<!--         	android:layout_marginLeft="15dp" -->
+<!--         	android:paddingLeft="25dp" -->
+<!--         	android:paddingTop="3dp" -->
+<!--         	android:paddingRight="25dp" -->
+<!--         	android:paddingBottom="3dp" -->
+<!--         	android:text="switch1" -->
+<!--         	android:textSize="15sp" /> -->
+        
+<!-- 	   	<com.crazybee.myipcam.MySlipSwitch -->
+	   	   
+<!-- 	   		android:id="@+id/slidebutton1" -->
+<!-- 	   		android:layout_width="wrap_content" -->
+<!-- 	   		android:layout_height="wrap_content" -->
+<!-- 	   		android:layout_alignParentRight="true" /> -->
+<!-- 	   	</RelativeLayout> -->
+	   	
+<!--         <RelativeLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="20dp" -->
+       
+<!--         > -->
+<!--         <Button -->
+            
+<!--         	android:id="@+id/button2" -->
+<!--         	android:layout_width="wrap_content" -->
+<!--         	android:layout_height="wrap_content" -->
+<!-- 	        android:layout_alignParentLeft="true" -->
+<!-- 	        android:layout_centerVertical="true"        	 -->
+<!--         	android:layout_marginLeft="15dp" -->
+<!--         	android:paddingLeft="25dp" -->
+<!--         	android:paddingTop="3dp" -->
+<!--         	android:paddingRight="25dp" -->
+<!--         	android:paddingBottom="3dp" -->
+<!--         	android:text="switch2" -->
+<!--         	android:textSize="15sp" /> -->
+        
+<!-- 	   	<com.crazybee.myipcam.MySlipSwitch -->
+	   	   
+<!-- 	   		android:id="@+id/slidebutton2" -->
+<!-- 	   		android:layout_width="wrap_content" -->
+<!-- 	   		android:layout_height="wrap_content" -->
+<!-- 	   		android:layout_alignParentRight="true" /> -->
+<!-- 	   	</RelativeLayout> -->
+    
+      
+<!--  <RelativeLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="20dp" -->
+       
+<!--         > -->
+<!--         <Button -->
+            
+<!--         	android:id="@+id/button3" -->
+<!--         	android:layout_width="wrap_content" -->
+<!--         	android:layout_height="wrap_content" -->
+<!-- 	        android:layout_alignParentLeft="true" -->
+<!-- 	        android:layout_centerVertical="true"        	 -->
+<!--         	android:layout_marginLeft="15dp" -->
+<!--         	android:paddingLeft="25dp" -->
+<!--         	android:paddingTop="3dp" -->
+<!--         	android:paddingRight="25dp" -->
+<!--         	android:paddingBottom="3dp" -->
+<!--         	android:text="switch3" -->
+<!--         	android:textSize="15sp" /> -->
+        
+<!-- 	   	<com.crazybee.myipcam.MySlipSwitch -->
+	   	   
+<!-- 	   		android:id="@+id/slidebutton3" -->
+<!-- 	   		android:layout_width="wrap_content" -->
+<!-- 	   		android:layout_height="wrap_content" -->
+<!-- 	   		android:layout_alignParentRight="true" /> -->
+<!-- 	   	</RelativeLayout> -->
+<!--        <RelativeLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="20dp" -->
+       
+<!--         > -->
+<!--         <Button -->
+            
+<!--         	android:id="@+id/button4" -->
+<!--         	android:layout_width="wrap_content" -->
+<!--         	android:layout_height="wrap_content" -->
+<!-- 	        android:layout_alignParentLeft="true" -->
+<!-- 	        android:layout_centerVertical="true"        	 -->
+<!--         	android:layout_marginLeft="15dp" -->
+<!--         	android:paddingLeft="25dp" -->
+<!--         	android:paddingTop="3dp" -->
+<!--         	android:paddingRight="25dp" -->
+<!--         	android:paddingBottom="3dp" -->
+<!--         	android:text="switch4" -->
+<!--         	android:textSize="15sp" /> -->
+        
+<!-- 	   	<com.crazybee.myipcam.MySlipSwitch -->
+	   	   
+<!-- 	   		android:id="@+id/slidebutton4" -->
+<!-- 	   		android:layout_width="wrap_content" -->
+<!-- 	   		android:layout_height="wrap_content" -->
+<!-- 	   		android:layout_alignParentRight="true" /> -->
+<!-- 	   	</RelativeLayout> -->
+<!--         <RelativeLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="20dp" -->
+       
+<!--         > -->
+<!--         <Button -->
+            
+<!--         	android:id="@+id/button5" -->
+<!--         	android:layout_width="wrap_content" -->
+<!--         	android:layout_height="wrap_content" -->
+<!-- 	        android:layout_alignParentLeft="true" -->
+<!-- 	        android:layout_centerVertical="true"        	 -->
+<!--         	android:layout_marginLeft="15dp" -->
+<!--         	android:paddingLeft="25dp" -->
+<!--         	android:paddingTop="3dp" -->
+<!--         	android:paddingRight="25dp" -->
+<!--         	android:paddingBottom="3dp" -->
+<!--         	android:text="switch5" -->
+<!--         	android:textSize="15sp" /> -->
+        
+<!-- 	   	<com.crazybee.myipcam.MySlipSwitch -->
+	   	   
+<!-- 	   		android:id="@+id/slidebutton5" -->
+<!-- 	   		android:layout_width="wrap_content" -->
+<!-- 	   		android:layout_height="wrap_content" -->
+<!-- 	   		android:layout_alignParentRight="true" /> -->
+<!-- 	   	</RelativeLayout> -->
+       <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+       
+        >
+	   	 <Button
+            
+        	android:id="@+id/qrscan"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"        	
+        	android:layout_marginLeft="15dp"
+        	android:paddingLeft="25dp"
+        	android:paddingTop="3dp"
+        	android:paddingRight="25dp"
+        	android:paddingBottom="3dp"
+        	android:text="Scan QR code"
+        	android:textSize="15sp" />
+	   	 
+	   	 <Button
+            
+        	android:id="@+id/qrgen"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"        	
+        	android:layout_marginLeft="15dp"
+        	android:paddingLeft="25dp"
+        	android:paddingTop="3dp"
+        	android:paddingRight="25dp"
+        	android:paddingBottom="3dp"
+        	android:text="Generate QR"
+        	android:textSize="15sp" />
+           
+	   		</RelativeLayout>
+      <ImageView 
+        android:id="@+id/iv_qr_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_gravity="center"/>
+      
+<!--        <TextView  -->
+<!--         android:id="@+id/scan_result" -->
+<!--        	android:layout_width="fill_parent" -->
+<!--        	android:textSize="18sp" -->
+<!--        	android:textColor="@android:color/white" -->
+<!--         android:layout_height="wrap_content" /> -->
+</LinearLayout>
+
+</ScrollView>
